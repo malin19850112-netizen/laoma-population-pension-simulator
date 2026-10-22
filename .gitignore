@@ -1,0 +1,8 @@
+*.zip
+*.pdb
+*.log
+node_modules/
+evidence/
+legacy-guangdong/
+Profile/
+*.user

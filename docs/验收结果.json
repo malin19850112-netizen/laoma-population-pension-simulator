@@ -1,0 +1,1322 @@
+{
+  "checks": [
+    {
+      "name": "初始页面无脚本错误",
+      "ok": true,
+      "detail": []
+    },
+    {
+      "name": "三省180组人口和96组养老金与完整版逐值一致",
+      "ok": true,
+      "detail": {
+        "population": 180,
+        "pension": 96
+      }
+    },
+    {
+      "name": "96个省份年份页面与导出列数",
+      "ok": true,
+      "detail": []
+    },
+    {
+      "name": "37市未来关闭和三省普查保留",
+      "ok": true,
+      "detail": []
+    },
+    {
+      "name": "三省文字入口点击联动",
+      "ok": true
+    },
+    {
+      "name": "年份生育迁移改变模型而不改变实际",
+      "ok": true
+    },
+    {
+      "name": "人口图表结论与原始导出一致",
+      "ok": true
+    },
+    {
+      "name": "方案恢复及旧指纹拒绝",
+      "ok": true,
+      "detail": {
+        "restored": true,
+        "rejected": true
+      }
+    },
+    {
+      "name": "72组职工居民四阶段养老金页面导出",
+      "ok": true,
+      "detail": []
+    },
+    {
+      "name": "真实CSV下载含数据性质与来源",
+      "ok": true
+    },
+    {
+      "name": "来源弹窗可打开",
+      "ok": true
+    },
+    {
+      "name": "无地图几何与旧预测全局",
+      "ok": true
+    },
+    {
+      "name": "离线运行没有外部请求",
+      "ok": true,
+      "detail": []
+    },
+    {
+      "name": "全程无脚本错误",
+      "ok": true,
+      "detail": []
+    }
+  ],
+  "matrix": [
+    {
+      "prov": "GD",
+      "year": 2026,
+      "route": "map",
+      "ok": true
+    },
+    {
+      "prov": "GD",
+      "year": 2026,
+      "route": "population",
+      "ok": true
+    },
+    {
+      "prov": "GD",
+      "year": 2026,
+      "route": "care",
+      "ok": true
+    },
+    {
+      "prov": "GD",
+      "year": 2026,
+      "route": "compare",
+      "ok": true
+    },
+    {
+      "prov": "GD",
+      "year": 2026,
+      "route": "lab",
+      "ok": true
+    },
+    {
+      "prov": "GD",
+      "year": 2026,
+      "route": "services",
+      "ok": true
+    },
+    {
+      "prov": "GD",
+      "year": 2026,
+      "route": "vital",
+      "ok": true
+    },
+    {
+      "prov": "GD",
+      "year": 2026,
+      "route": "sources",
+      "ok": true
+    },
+    {
+      "prov": "GD",
+      "year": 2036,
+      "route": "map",
+      "ok": true
+    },
+    {
+      "prov": "GD",
+      "year": 2036,
+      "route": "population",
+      "ok": true
+    },
+    {
+      "prov": "GD",
+      "year": 2036,
+      "route": "care",
+      "ok": true
+    },
+    {
+      "prov": "GD",
+      "year": 2036,
+      "route": "compare",
+      "ok": true
+    },
+    {
+      "prov": "GD",
+      "year": 2036,
+      "route": "lab",
+      "ok": true
+    },
+    {
+      "prov": "GD",
+      "year": 2036,
+      "route": "services",
+      "ok": true
+    },
+    {
+      "prov": "GD",
+      "year": 2036,
+      "route": "vital",
+      "ok": true
+    },
+    {
+      "prov": "GD",
+      "year": 2036,
+      "route": "sources",
+      "ok": true
+    },
+    {
+      "prov": "GD",
+      "year": 2046,
+      "route": "map",
+      "ok": true
+    },
+    {
+      "prov": "GD",
+      "year": 2046,
+      "route": "population",
+      "ok": true
+    },
+    {
+      "prov": "GD",
+      "year": 2046,
+      "route": "care",
+      "ok": true
+    },
+    {
+      "prov": "GD",
+      "year": 2046,
+      "route": "compare",
+      "ok": true
+    },
+    {
+      "prov": "GD",
+      "year": 2046,
+      "route": "lab",
+      "ok": true
+    },
+    {
+      "prov": "GD",
+      "year": 2046,
+      "route": "services",
+      "ok": true
+    },
+    {
+      "prov": "GD",
+      "year": 2046,
+      "route": "vital",
+      "ok": true
+    },
+    {
+      "prov": "GD",
+      "year": 2046,
+      "route": "sources",
+      "ok": true
+    },
+    {
+      "prov": "GD",
+      "year": 2056,
+      "route": "map",
+      "ok": true
+    },
+    {
+      "prov": "GD",
+      "year": 2056,
+      "route": "population",
+      "ok": true
+    },
+    {
+      "prov": "GD",
+      "year": 2056,
+      "route": "care",
+      "ok": true
+    },
+    {
+      "prov": "GD",
+      "year": 2056,
+      "route": "compare",
+      "ok": true
+    },
+    {
+      "prov": "GD",
+      "year": 2056,
+      "route": "lab",
+      "ok": true
+    },
+    {
+      "prov": "GD",
+      "year": 2056,
+      "route": "services",
+      "ok": true
+    },
+    {
+      "prov": "GD",
+      "year": 2056,
+      "route": "vital",
+      "ok": true
+    },
+    {
+      "prov": "GD",
+      "year": 2056,
+      "route": "sources",
+      "ok": true
+    },
+    {
+      "prov": "HN",
+      "year": 2026,
+      "route": "map",
+      "ok": true
+    },
+    {
+      "prov": "HN",
+      "year": 2026,
+      "route": "population",
+      "ok": true
+    },
+    {
+      "prov": "HN",
+      "year": 2026,
+      "route": "care",
+      "ok": true
+    },
+    {
+      "prov": "HN",
+      "year": 2026,
+      "route": "compare",
+      "ok": true
+    },
+    {
+      "prov": "HN",
+      "year": 2026,
+      "route": "lab",
+      "ok": true
+    },
+    {
+      "prov": "HN",
+      "year": 2026,
+      "route": "services",
+      "ok": true
+    },
+    {
+      "prov": "HN",
+      "year": 2026,
+      "route": "vital",
+      "ok": true
+    },
+    {
+      "prov": "HN",
+      "year": 2026,
+      "route": "sources",
+      "ok": true
+    },
+    {
+      "prov": "HN",
+      "year": 2036,
+      "route": "map",
+      "ok": true
+    },
+    {
+      "prov": "HN",
+      "year": 2036,
+      "route": "population",
+      "ok": true
+    },
+    {
+      "prov": "HN",
+      "year": 2036,
+      "route": "care",
+      "ok": true
+    },
+    {
+      "prov": "HN",
+      "year": 2036,
+      "route": "compare",
+      "ok": true
+    },
+    {
+      "prov": "HN",
+      "year": 2036,
+      "route": "lab",
+      "ok": true
+    },
+    {
+      "prov": "HN",
+      "year": 2036,
+      "route": "services",
+      "ok": true
+    },
+    {
+      "prov": "HN",
+      "year": 2036,
+      "route": "vital",
+      "ok": true
+    },
+    {
+      "prov": "HN",
+      "year": 2036,
+      "route": "sources",
+      "ok": true
+    },
+    {
+      "prov": "HN",
+      "year": 2046,
+      "route": "map",
+      "ok": true
+    },
+    {
+      "prov": "HN",
+      "year": 2046,
+      "route": "population",
+      "ok": true
+    },
+    {
+      "prov": "HN",
+      "year": 2046,
+      "route": "care",
+      "ok": true
+    },
+    {
+      "prov": "HN",
+      "year": 2046,
+      "route": "compare",
+      "ok": true
+    },
+    {
+      "prov": "HN",
+      "year": 2046,
+      "route": "lab",
+      "ok": true
+    },
+    {
+      "prov": "HN",
+      "year": 2046,
+      "route": "services",
+      "ok": true
+    },
+    {
+      "prov": "HN",
+      "year": 2046,
+      "route": "vital",
+      "ok": true
+    },
+    {
+      "prov": "HN",
+      "year": 2046,
+      "route": "sources",
+      "ok": true
+    },
+    {
+      "prov": "HN",
+      "year": 2056,
+      "route": "map",
+      "ok": true
+    },
+    {
+      "prov": "HN",
+      "year": 2056,
+      "route": "population",
+      "ok": true
+    },
+    {
+      "prov": "HN",
+      "year": 2056,
+      "route": "care",
+      "ok": true
+    },
+    {
+      "prov": "HN",
+      "year": 2056,
+      "route": "compare",
+      "ok": true
+    },
+    {
+      "prov": "HN",
+      "year": 2056,
+      "route": "lab",
+      "ok": true
+    },
+    {
+      "prov": "HN",
+      "year": 2056,
+      "route": "services",
+      "ok": true
+    },
+    {
+      "prov": "HN",
+      "year": 2056,
+      "route": "vital",
+      "ok": true
+    },
+    {
+      "prov": "HN",
+      "year": 2056,
+      "route": "sources",
+      "ok": true
+    },
+    {
+      "prov": "GX",
+      "year": 2026,
+      "route": "map",
+      "ok": true
+    },
+    {
+      "prov": "GX",
+      "year": 2026,
+      "route": "population",
+      "ok": true
+    },
+    {
+      "prov": "GX",
+      "year": 2026,
+      "route": "care",
+      "ok": true
+    },
+    {
+      "prov": "GX",
+      "year": 2026,
+      "route": "compare",
+      "ok": true
+    },
+    {
+      "prov": "GX",
+      "year": 2026,
+      "route": "lab",
+      "ok": true
+    },
+    {
+      "prov": "GX",
+      "year": 2026,
+      "route": "services",
+      "ok": true
+    },
+    {
+      "prov": "GX",
+      "year": 2026,
+      "route": "vital",
+      "ok": true
+    },
+    {
+      "prov": "GX",
+      "year": 2026,
+      "route": "sources",
+      "ok": true
+    },
+    {
+      "prov": "GX",
+      "year": 2036,
+      "route": "map",
+      "ok": true
+    },
+    {
+      "prov": "GX",
+      "year": 2036,
+      "route": "population",
+      "ok": true
+    },
+    {
+      "prov": "GX",
+      "year": 2036,
+      "route": "care",
+      "ok": true
+    },
+    {
+      "prov": "GX",
+      "year": 2036,
+      "route": "compare",
+      "ok": true
+    },
+    {
+      "prov": "GX",
+      "year": 2036,
+      "route": "lab",
+      "ok": true
+    },
+    {
+      "prov": "GX",
+      "year": 2036,
+      "route": "services",
+      "ok": true
+    },
+    {
+      "prov": "GX",
+      "year": 2036,
+      "route": "vital",
+      "ok": true
+    },
+    {
+      "prov": "GX",
+      "year": 2036,
+      "route": "sources",
+      "ok": true
+    },
+    {
+      "prov": "GX",
+      "year": 2046,
+      "route": "map",
+      "ok": true
+    },
+    {
+      "prov": "GX",
+      "year": 2046,
+      "route": "population",
+      "ok": true
+    },
+    {
+      "prov": "GX",
+      "year": 2046,
+      "route": "care",
+      "ok": true
+    },
+    {
+      "prov": "GX",
+      "year": 2046,
+      "route": "compare",
+      "ok": true
+    },
+    {
+      "prov": "GX",
+      "year": 2046,
+      "route": "lab",
+      "ok": true
+    },
+    {
+      "prov": "GX",
+      "year": 2046,
+      "route": "services",
+      "ok": true
+    },
+    {
+      "prov": "GX",
+      "year": 2046,
+      "route": "vital",
+      "ok": true
+    },
+    {
+      "prov": "GX",
+      "year": 2046,
+      "route": "sources",
+      "ok": true
+    },
+    {
+      "prov": "GX",
+      "year": 2056,
+      "route": "map",
+      "ok": true
+    },
+    {
+      "prov": "GX",
+      "year": 2056,
+      "route": "population",
+      "ok": true
+    },
+    {
+      "prov": "GX",
+      "year": 2056,
+      "route": "care",
+      "ok": true
+    },
+    {
+      "prov": "GX",
+      "year": 2056,
+      "route": "compare",
+      "ok": true
+    },
+    {
+      "prov": "GX",
+      "year": 2056,
+      "route": "lab",
+      "ok": true
+    },
+    {
+      "prov": "GX",
+      "year": 2056,
+      "route": "services",
+      "ok": true
+    },
+    {
+      "prov": "GX",
+      "year": 2056,
+      "route": "vital",
+      "ok": true
+    },
+    {
+      "prov": "GX",
+      "year": 2056,
+      "route": "sources",
+      "ok": true
+    }
+  ],
+  "cityChecks": [
+    {
+      "id": "Guangzhou",
+      "ok": true
+    },
+    {
+      "id": "Shenzhen",
+      "ok": true
+    },
+    {
+      "id": "Zhuhai",
+      "ok": true
+    },
+    {
+      "id": "Foshan",
+      "ok": true
+    },
+    {
+      "id": "Huizhou",
+      "ok": true
+    },
+    {
+      "id": "Dongguan",
+      "ok": true
+    },
+    {
+      "id": "Zhongshan",
+      "ok": true
+    },
+    {
+      "id": "Jiangmen",
+      "ok": true
+    },
+    {
+      "id": "Zhaoqing",
+      "ok": true
+    },
+    {
+      "id": "Changsha",
+      "ok": true
+    },
+    {
+      "id": "Zhuzhou",
+      "ok": true
+    },
+    {
+      "id": "Xiangtan",
+      "ok": true
+    },
+    {
+      "id": "Hengyang",
+      "ok": true
+    },
+    {
+      "id": "Shaoyang",
+      "ok": true
+    },
+    {
+      "id": "Yueyang",
+      "ok": true
+    },
+    {
+      "id": "Changde",
+      "ok": true
+    },
+    {
+      "id": "Zhangjiajie",
+      "ok": true
+    },
+    {
+      "id": "Yiyang",
+      "ok": true
+    },
+    {
+      "id": "Binzhou",
+      "ok": true
+    },
+    {
+      "id": "Yongzhou",
+      "ok": true
+    },
+    {
+      "id": "Huaihua",
+      "ok": true
+    },
+    {
+      "id": "Loudi",
+      "ok": true
+    },
+    {
+      "id": "Xiangxi",
+      "ok": true
+    },
+    {
+      "id": "Nanning",
+      "ok": true
+    },
+    {
+      "id": "Liuzhou",
+      "ok": true
+    },
+    {
+      "id": "Guilin",
+      "ok": true
+    },
+    {
+      "id": "Wuzhou",
+      "ok": true
+    },
+    {
+      "id": "Beihai",
+      "ok": true
+    },
+    {
+      "id": "Fangchenggang",
+      "ok": true
+    },
+    {
+      "id": "Qinzhou",
+      "ok": true
+    },
+    {
+      "id": "Guigang",
+      "ok": true
+    },
+    {
+      "id": "Yulin",
+      "ok": true
+    },
+    {
+      "id": "Baise",
+      "ok": true
+    },
+    {
+      "id": "Hezhou",
+      "ok": true
+    },
+    {
+      "id": "Hechi",
+      "ok": true
+    },
+    {
+      "id": "Laibin",
+      "ok": true
+    },
+    {
+      "id": "Chongzuo",
+      "ok": true
+    },
+    {
+      "id": "GD普查",
+      "ok": true
+    },
+    {
+      "id": "HN普查",
+      "ok": true
+    },
+    {
+      "id": "GX普查",
+      "ok": true
+    }
+  ],
+  "pensionChecks": [
+    {
+      "prov": "GD",
+      "system": "employee",
+      "y": 2026,
+      "route": "care",
+      "ok": true
+    },
+    {
+      "prov": "GD",
+      "system": "employee",
+      "y": 2026,
+      "route": "lab",
+      "ok": true
+    },
+    {
+      "prov": "GD",
+      "system": "employee",
+      "y": 2026,
+      "route": "compare",
+      "ok": true
+    },
+    {
+      "prov": "GD",
+      "system": "employee",
+      "y": 2036,
+      "route": "care",
+      "ok": true
+    },
+    {
+      "prov": "GD",
+      "system": "employee",
+      "y": 2036,
+      "route": "lab",
+      "ok": true
+    },
+    {
+      "prov": "GD",
+      "system": "employee",
+      "y": 2036,
+      "route": "compare",
+      "ok": true
+    },
+    {
+      "prov": "GD",
+      "system": "employee",
+      "y": 2046,
+      "route": "care",
+      "ok": true
+    },
+    {
+      "prov": "GD",
+      "system": "employee",
+      "y": 2046,
+      "route": "lab",
+      "ok": true
+    },
+    {
+      "prov": "GD",
+      "system": "employee",
+      "y": 2046,
+      "route": "compare",
+      "ok": true
+    },
+    {
+      "prov": "GD",
+      "system": "employee",
+      "y": 2056,
+      "route": "care",
+      "ok": true
+    },
+    {
+      "prov": "GD",
+      "system": "employee",
+      "y": 2056,
+      "route": "lab",
+      "ok": true
+    },
+    {
+      "prov": "GD",
+      "system": "employee",
+      "y": 2056,
+      "route": "compare",
+      "ok": true
+    },
+    {
+      "prov": "GD",
+      "system": "resident",
+      "y": 2026,
+      "route": "care",
+      "ok": true
+    },
+    {
+      "prov": "GD",
+      "system": "resident",
+      "y": 2026,
+      "route": "lab",
+      "ok": true
+    },
+    {
+      "prov": "GD",
+      "system": "resident",
+      "y": 2026,
+      "route": "compare",
+      "ok": true
+    },
+    {
+      "prov": "GD",
+      "system": "resident",
+      "y": 2036,
+      "route": "care",
+      "ok": true
+    },
+    {
+      "prov": "GD",
+      "system": "resident",
+      "y": 2036,
+      "route": "lab",
+      "ok": true
+    },
+    {
+      "prov": "GD",
+      "system": "resident",
+      "y": 2036,
+      "route": "compare",
+      "ok": true
+    },
+    {
+      "prov": "GD",
+      "system": "resident",
+      "y": 2046,
+      "route": "care",
+      "ok": true
+    },
+    {
+      "prov": "GD",
+      "system": "resident",
+      "y": 2046,
+      "route": "lab",
+      "ok": true
+    },
+    {
+      "prov": "GD",
+      "system": "resident",
+      "y": 2046,
+      "route": "compare",
+      "ok": true
+    },
+    {
+      "prov": "GD",
+      "system": "resident",
+      "y": 2056,
+      "route": "care",
+      "ok": true
+    },
+    {
+      "prov": "GD",
+      "system": "resident",
+      "y": 2056,
+      "route": "lab",
+      "ok": true
+    },
+    {
+      "prov": "GD",
+      "system": "resident",
+      "y": 2056,
+      "route": "compare",
+      "ok": true
+    },
+    {
+      "prov": "HN",
+      "system": "employee",
+      "y": 2026,
+      "route": "care",
+      "ok": true
+    },
+    {
+      "prov": "HN",
+      "system": "employee",
+      "y": 2026,
+      "route": "lab",
+      "ok": true
+    },
+    {
+      "prov": "HN",
+      "system": "employee",
+      "y": 2026,
+      "route": "compare",
+      "ok": true
+    },
+    {
+      "prov": "HN",
+      "system": "employee",
+      "y": 2036,
+      "route": "care",
+      "ok": true
+    },
+    {
+      "prov": "HN",
+      "system": "employee",
+      "y": 2036,
+      "route": "lab",
+      "ok": true
+    },
+    {
+      "prov": "HN",
+      "system": "employee",
+      "y": 2036,
+      "route": "compare",
+      "ok": true
+    },
+    {
+      "prov": "HN",
+      "system": "employee",
+      "y": 2046,
+      "route": "care",
+      "ok": true
+    },
+    {
+      "prov": "HN",
+      "system": "employee",
+      "y": 2046,
+      "route": "lab",
+      "ok": true
+    },
+    {
+      "prov": "HN",
+      "system": "employee",
+      "y": 2046,
+      "route": "compare",
+      "ok": true
+    },
+    {
+      "prov": "HN",
+      "system": "employee",
+      "y": 2056,
+      "route": "care",
+      "ok": true
+    },
+    {
+      "prov": "HN",
+      "system": "employee",
+      "y": 2056,
+      "route": "lab",
+      "ok": true
+    },
+    {
+      "prov": "HN",
+      "system": "employee",
+      "y": 2056,
+      "route": "compare",
+      "ok": true
+    },
+    {
+      "prov": "HN",
+      "system": "resident",
+      "y": 2026,
+      "route": "care",
+      "ok": true
+    },
+    {
+      "prov": "HN",
+      "system": "resident",
+      "y": 2026,
+      "route": "lab",
+      "ok": true
+    },
+    {
+      "prov": "HN",
+      "system": "resident",
+      "y": 2026,
+      "route": "compare",
+      "ok": true
+    },
+    {
+      "prov": "HN",
+      "system": "resident",
+      "y": 2036,
+      "route": "care",
+      "ok": true
+    },
+    {
+      "prov": "HN",
+      "system": "resident",
+      "y": 2036,
+      "route": "lab",
+      "ok": true
+    },
+    {
+      "prov": "HN",
+      "system": "resident",
+      "y": 2036,
+      "route": "compare",
+      "ok": true
+    },
+    {
+      "prov": "HN",
+      "system": "resident",
+      "y": 2046,
+      "route": "care",
+      "ok": true
+    },
+    {
+      "prov": "HN",
+      "system": "resident",
+      "y": 2046,
+      "route": "lab",
+      "ok": true
+    },
+    {
+      "prov": "HN",
+      "system": "resident",
+      "y": 2046,
+      "route": "compare",
+      "ok": true
+    },
+    {
+      "prov": "HN",
+      "system": "resident",
+      "y": 2056,
+      "route": "care",
+      "ok": true
+    },
+    {
+      "prov": "HN",
+      "system": "resident",
+      "y": 2056,
+      "route": "lab",
+      "ok": true
+    },
+    {
+      "prov": "HN",
+      "system": "resident",
+      "y": 2056,
+      "route": "compare",
+      "ok": true
+    },
+    {
+      "prov": "GX",
+      "system": "employee",
+      "y": 2026,
+      "route": "care",
+      "ok": true
+    },
+    {
+      "prov": "GX",
+      "system": "employee",
+      "y": 2026,
+      "route": "lab",
+      "ok": true
+    },
+    {
+      "prov": "GX",
+      "system": "employee",
+      "y": 2026,
+      "route": "compare",
+      "ok": true
+    },
+    {
+      "prov": "GX",
+      "system": "employee",
+      "y": 2036,
+      "route": "care",
+      "ok": true
+    },
+    {
+      "prov": "GX",
+      "system": "employee",
+      "y": 2036,
+      "route": "lab",
+      "ok": true
+    },
+    {
+      "prov": "GX",
+      "system": "employee",
+      "y": 2036,
+      "route": "compare",
+      "ok": true
+    },
+    {
+      "prov": "GX",
+      "system": "employee",
+      "y": 2046,
+      "route": "care",
+      "ok": true
+    },
+    {
+      "prov": "GX",
+      "system": "employee",
+      "y": 2046,
+      "route": "lab",
+      "ok": true
+    },
+    {
+      "prov": "GX",
+      "system": "employee",
+      "y": 2046,
+      "route": "compare",
+      "ok": true
+    },
+    {
+      "prov": "GX",
+      "system": "employee",
+      "y": 2056,
+      "route": "care",
+      "ok": true
+    },
+    {
+      "prov": "GX",
+      "system": "employee",
+      "y": 2056,
+      "route": "lab",
+      "ok": true
+    },
+    {
+      "prov": "GX",
+      "system": "employee",
+      "y": 2056,
+      "route": "compare",
+      "ok": true
+    },
+    {
+      "prov": "GX",
+      "system": "resident",
+      "y": 2026,
+      "route": "care",
+      "ok": true
+    },
+    {
+      "prov": "GX",
+      "system": "resident",
+      "y": 2026,
+      "route": "lab",
+      "ok": true
+    },
+    {
+      "prov": "GX",
+      "system": "resident",
+      "y": 2026,
+      "route": "compare",
+      "ok": true
+    },
+    {
+      "prov": "GX",
+      "system": "resident",
+      "y": 2036,
+      "route": "care",
+      "ok": true
+    },
+    {
+      "prov": "GX",
+      "system": "resident",
+      "y": 2036,
+      "route": "lab",
+      "ok": true
+    },
+    {
+      "prov": "GX",
+      "system": "resident",
+      "y": 2036,
+      "route": "compare",
+      "ok": true
+    },
+    {
+      "prov": "GX",
+      "system": "resident",
+      "y": 2046,
+      "route": "care",
+      "ok": true
+    },
+    {
+      "prov": "GX",
+      "system": "resident",
+      "y": 2046,
+      "route": "lab",
+      "ok": true
+    },
+    {
+      "prov": "GX",
+      "system": "resident",
+      "y": 2046,
+      "route": "compare",
+      "ok": true
+    },
+    {
+      "prov": "GX",
+      "system": "resident",
+      "y": 2056,
+      "route": "care",
+      "ok": true
+    },
+    {
+      "prov": "GX",
+      "system": "resident",
+      "y": 2056,
+      "route": "lab",
+      "ok": true
+    },
+    {
+      "prov": "GX",
+      "system": "resident",
+      "y": 2056,
+      "route": "compare",
+      "ok": true
+    }
+  ],
+  "errors": [],
+  "external": []
+}
