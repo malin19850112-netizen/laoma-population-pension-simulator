@@ -39,6 +39,7 @@
   "docs/templates/assumptions.csv": "86b9693c8c6b15c32fa0c26f0a8aed7b015a2a22673bd9688fa74beb248a719b",
   "docs/templates/pension.csv": "32089d8f9448f653482b0fc8c9158bf9ea969de5fb2922d5f72c75066f332f1c",
   "docs/templates/population.csv": "e47448764a61583904e6f166e80ba6bc1cbd70ea928c5b8e4a7e23731e48f075",
+  "docs/templates/README.md": "1449268f71792ee9f1b07b74d0c67df729075592831beed8f9ef9f4ed50f3aa0",
   "docs/templates/sources.csv": "0e8058b09fc0c64b28ce35d32cdc0ea0a277bbc1cdb574b09b4d0f201fa008bf",
   "docs/执行与验收范围.md": "07df2485a8b425cc6aac0794f6c6d4c82ca8335621030c1a636474fdeca1b234",
   "docs/数据与许可边界.md": "ba9a9bdc828404b9ea5b5bfc063870e87fbd28f5480e84a12ce39ba0d8c80343",
@@ -49,6 +50,6 @@
   "docs/验收摘要.txt": "6da3f4e4c4d135641716de9079684ea503a68a29d02ba213bd9ec2471114c736",
   "docs/验收结果.json": "e2144c6dc49f8c1afac9025213f82125381e18f553572108b068fa8d7376e633",
   "LICENSE.txt": "850d9114e7c7408536c9cb4b7b81a8973ecbfb037778cdb6da5ca2f7462140aa",
-  "README.md": "d0f6baeba179831745bf9910c7e0732b0f4613b424bcb9bbb8551e541b84a94a",
+  "README.md": "ad6b06f19a09e0bd57f91cf8f0fc2e4a48c04b6eed66edfab333f10297745448",
   "人口与养老金情景模拟器.exe": "11f4f431c49d634c10fc0208f9090ff7ad4565db26b4f7fb3351a35e4ad1cd5a"
 }
